@@ -4,7 +4,7 @@
 download_azurlane () {
     if [ ! -f "AzurLane.apk" ]; then
     # 下载游戏apk的地址,我找不到一个固定的链接,理论上每次更新客户端都要手动改地址
-    url="https://pkg.biligame.com/games/blhx_6.2.1_bilibili_20221107_143634.apk"
+    url="https://objects.githubusercontent.com/github-production-release-asset-2e65be/617714826/82f310e5-d1e8-4d91-9b7f-8d8627b67fb9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230703T060543Z&X-Amz-Expires=300&X-Amz-Signature=b42c8270e46110ef14dc9d7fa73a32866353b7fd11d72753d0e485dbb968ec60&X-Amz-SignedHeaders=host&actor_id=96678238&key_id=0&repo_id=617714826&response-content-disposition=attachment%3B%20filename%3DAzurLane.patched.apk&response-content-type=application%2Fvnd.android.package-archive"
     # 使用wget命令下载apk文件
     curl -o blhx.apk  $url
     fi
